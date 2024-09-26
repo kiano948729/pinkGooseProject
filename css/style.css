@@ -1,0 +1,926 @@
+/* ====================================================== */
+/* dit is voor alle font styling */
+/* ====================================================== */
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }  
+
+/* ====================================================== */
+/* ====================================================== */
+
+body {
+    background-color: #10151A;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* ====================================================== */
+/* headerstyling */
+/* ====================================================== */
+header {
+    margin-left: 318px;
+    margin-right: 318px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.title {
+    flex: 1;
+}
+
+.titleP {
+    color: #fff;
+}
+
+.titleG {
+    color: #FFB4D3;
+}
+
+.nav-links {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    padding: 75px
+}
+
+.nav-links a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    background-color: #243241;
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+.login-link {
+    flex: 1;
+    text-align: right;
+}
+
+.login-link a {
+    display: inline-block;
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #243241;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login-link a.active,
+.login-link a:hover {
+    background-color: #243241;
+    transform: scale(1.05);
+    font-weight: bold;
+
+}
+
+/* ====================================================== */
+/* alle main styling is hier */
+/* ====================================================== */
+.front-text {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainText {
+    font-size: 62px;
+    margin-bottom: 0%;
+}
+
+.mainTextL2 {
+    margin-top: 0%;
+    font-size: 62px;
+}
+.front-text div{
+    margin-bottom: 55px;
+}
+.mainText2 {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.front-text-button a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 20px 40px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #CEAAFF;
+    text-decoration: none;
+    border-radius: 14px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 2px 4px 8px rgba(238, 170, 228, 0.3);
+}
+
+.front-text-button a.active,
+.front-text-button a:hover {
+    background-color: #e50d9d;
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+.getStarted {
+    color: #243241;
+    font-size: 25px;
+}
+
+.mid-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.midText {
+    font-size: 54px;
+    color: #fff;
+}
+
+.mid-text-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.mid-text-buttons1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* ====================================================== */
+/* pers staat voor personilaseren */
+/* ====================================================== */
+
+.mid-text-pers {
+    font-size: 20px;
+    margin-right: 20px;
+    color: #fff;
+    background-color: #2A3744;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.mid-text-buttons a.active,
+.mid-text-buttons a:hover {
+    background-color: #243241;
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+.mid-text-buttons1 a.active,
+.mid-text-buttons1 a:hover {
+    background-color: #243241;
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+.mid-text-pers1 {
+    color: #FFB4D3;
+}
+
+.mid-text-pers2 {
+    color: #FFC24C;
+}
+
+.mid-text-pers3 {
+    color: #D387F7;
+}
+
+.mid-text-pers4 {
+    color: #77E6FF;
+}
+
+.mid-text-pers5 {
+    color: #23C9DE;
+}
+
+.mid-text-pers6 {
+    color: #FF9E9E;
+}
+
+.mid-text-pers7 {
+    color: #707F8D;
+}
+
+.mid-text-low-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ------------------------ */
+/* dit is de div voor de foto */
+.mid-photo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 100px
+}
+
+/* ------------------------ */
+/* dit is de foto zelf */
+.mid-photo1 {
+    border-radius: 30px;
+    border: #0A1117 solid 2px;
+}
+
+.mid-text-photo {
+    background-color: #FFB4D3;
+    border: #0A1117 solid 4px;
+    padding: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #0A1117;
+
+}
+
+.mid-text-low-pers {
+    font-size: 54px;
+    color: #37424D;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.mid-text-low-pers1 {
+    color: #fff;
+}
+
+.mid-text-low-buttons a.active,
+.mid-text-low-buttons a:hover {
+    color: #FFB4D3;
+}
+
+.midText-low {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 34px;
+}
+
+.midText-low h1 {
+    margin-top: 0%;
+}
+
+.midText-low1 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 54px;
+}
+
+
+.mid-icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.mid-text-low-icon {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+
+.mid-icon-item a.active,
+.mid-icon-item a:hover {
+    background-color: #6d6e6f;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.mid-people-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 216px;
+}
+
+.mid-people-text {
+    margin-bottom: 0px;
+}
+
+.text-faded {
+    margin-top: 0px;
+    color: rgba(165, 164, 164, 0.314);
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-faded2 {
+    margin-top: 0px;
+    color: rgba(165, 164, 164, 0.314);
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-box-pos {
+    margin-bottom: 102px;
+    display: flex;
+    justify-content: center;
+}
+
+.subscription-box {
+    background-color: #121E28;
+    border: #464a4d 2px solid;
+    border-radius: 10px;
+    padding: 0px 218px 40px 218px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.email-input {
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    border: #464a4d 2px solid;
+    width: 400px;
+    font-size: 14px;
+    margin-right: 10px;
+    outline: none;
+    color: #333;
+    background-color: #19232a;
+}
+
+.subscribe-button {
+    padding: 20px 40px;
+    background-color: #b084f7;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+    background-color: #a06de6;
+}
+
+.DBT {
+    display: flex;
+    justify-content: center;
+}
+
+.press-title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.midText-low4 {
+    font-size: 20px;
+    color: rgba(165, 164, 164, 0.314);
+    margin-top: 100px;
+    margin-right: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+.midText-low2 {
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+    font-size: 54px;
+    margin-top: 70px;
+}
+
+.container-press {
+    border-radius: 10px;
+    height: 332px;
+    width: 361px;
+    padding: 20px;
+    margin-right: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: box-shadow 0.3s ease;
+}
+
+.container-blue {
+    background-color: #77E6FF;
+}
+
+.container-pink {
+    background-color: #E2C1F9;
+}
+.img-blockworks{
+    width: 144px;
+    height: 23px;
+    margin-left: 30px;
+    margin-top: 14px;
+}
+.img-techcrunch-decrypt{
+    margin-left: 25px;
+}
+.container-yellow {
+    background-color: #DBE268;
+}
+
+.DBT-text {
+    font-size: 22px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.DBT-text2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 17px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.mid-text-low-pers3 {
+    text-decoration: none;
+    color: #10151A;
+    margin-left: 28px;
+    font-size: 16px;
+}
+
+.container-gray {
+    background-color: #121E28;
+    border-radius: 10px;
+    box-shadow: 0 12px 25px rgba(123, 122, 122, 0.2);
+    height: 332px;
+    width: 361px;
+    padding: 20px;
+    margin-right: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: box-shadow 0.3s ease;
+}
+
+.container-gray img {
+    margin-left: 28px;
+    margin-bottom: 0%;
+}
+
+.DBT-text2-1 {
+    font-size: 22px;
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-top: 0%;
+    color: #fff;
+}
+
+.DBT-text2-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 17px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.text2-3 {
+    color: rgba(165, 164, 164, 0.314);
+    ;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.mid-text-low-pers4 {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 28px;
+    font-size: 16px;
+}
+
+.podc-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end
+}
+
+.low-low {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.telegram {
+    background-color: #FFC803;
+    border-radius: 20px;
+    width: 280px;
+    font-size: 20px;
+    margin-right: 32px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.telegram i {
+    margin: 16px 16px 16px 20px;
+    background-color: #d8aa03;
+    border-radius: 10px;
+    font-size: 60px;
+    padding: 10px;
+}
+
+.telegram p {
+    display: flex;
+    flex-direction: column;
+}
+
+.telegram-text {
+    font-size: 20px;
+}
+
+.email {
+    background-color: rgb(237, 186, 237);
+    border-radius: 20px;
+    width: 280px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.email i {
+    margin: 16px 16px 16px 20px;
+    background-color: rgb(211, 170, 211);
+    border-radius: 10px;
+    font-size: 60px;
+    padding: 10px;
+}
+
+.email p {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-text {
+    font-size: 20px;
+}
+
+.email-text2 {
+    font-size: 16px;
+    color: rgba(43, 37, 37, 0.584);
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+    height: 1000px; 
+    background-color: #121E28;
+    padding: 30px;
+    border: 2px solid #3D4C5B;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 490px;
+    margin-right: 490px;
+}
+
+.post-goose-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-goose-form h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 0%;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.post-goose-form input,
+.post-goose-form select {
+    margin-bottom: 30px;
+    padding: 25px 200px;
+    border: solid 2px #3D4C5B;
+    border-radius: 10px;
+    font-size: 12px;
+    background-color: #121E28;
+    color: #fff;
+}
+
+.post-goose-form textarea {
+    margin-bottom: 30px;
+    padding: 96px 110px;
+    border: solid 2px #3D4C5B;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #121E28;
+    color: #fff;
+}
+
+.post-goose-form input::placeholder,
+.post-goose-form textarea::placeholder {
+    color: #7a7a7a;
+}
+
+.post-goose-form select {
+    appearance: none;
+    background-color: #121E28;
+    color: #fff;
+}
+
+.post-goose-form button {
+    width: 175px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #c2a3ff;
+    color: #14161a;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post-goose-form button:hover {
+    background-color: #b591ff;
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+/* ##################################################################### */
+/* Footer style */
+/* ##################################################################### */
+
+footer {
+    background-color: #121E28;
+    font-size: 25px;
+    margin-top: 282px;
+}
+
+.legal {
+    color: yellow;
+}
+
+.footer-social {
+    margin-left: 151px;
+}
+
+.footer-links {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    padding: 75px
+}
+
+.footer-links a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-links a.active,
+.footer-links a:hover {
+    background-color: #243241;
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+/* ------------------------ */
+/* alle miscellaneous foto's */
+/* ------------------------ */
+
+.miscellaneous-pic1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 118.5px;
+    margin-bottom: 64.5px;
+}
+
+.miscellaneous-pic2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.main-star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.star-star {
+    width: 80px;
+    height: 90px;
+    margin-right: 90px;
+}
+
+.fJour-star {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 450.83px;
+}
+
+.press-star {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 0px 0px 450px;
+}
+
+.podcast-star {
+    margin-top: 160px;
+    display: flex;
+    margin-left: 220px;
+}
+
+.star-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+    margin-right: 650px;
+}
+
+/* ------------------------ */
+/* hier komt nog overige margin */
+/* ------------------------ */
+
+.margin-ATVS {
+    margin-top: 350px;
+}
+
+.marginFJ {
+    margin-top: 150px;
+}
+
+.marginIcon {
+    margin-top: 150px;
+}
+
+/* ====================================================== */
+/* dit is voor de login styling */
+/* ====================================================== */
+
+.loginInd {
+    background-color: #39434c;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-posi {
+    display: flex;
+    justify-content: center;
+}
+
+.form-login {
+    margin-bottom: 20px;
+}
+
+.labLogin {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #8bc34a;
+    box-shadow: 0 0 8px rgba(139, 195, 74, 0.2);
+}
+
+.login-links {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #FFB4D3;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-links:hover {
+    background-color: #ff82b6;
+}
+
+.login-links:active {
+    background-color: #ff82b6;
+}
+
+.login-links a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
