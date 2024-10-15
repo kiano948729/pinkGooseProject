@@ -7,7 +7,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
             <h1><span class="titleP">Pink</span> <span class="titleG">Goose</span></h1>
         </div>
         <div class="nav-links">
-            <a href="../index.php" class="<?php echo $current_page == 'index.php' ? 'active' : ''; ?>">Home</a>
+            <a href="../index.php" 
+                class="<?php echo $current_page == 'index.php' ? 'active' : ''; ?>">Home</a>
             <a href="../resource/learn.php"
                 class="<?php echo $current_page == 'learn.php' ? 'active' : ''; ?>">Learn</a>
             <a href="../resource/about.php"
