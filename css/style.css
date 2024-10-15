@@ -924,3 +924,33 @@ input[type="password"]:focus {
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
+/* ik was dit vergeten te maken */
+.pink-boxen{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+.pink-boxen-people{
+    width: 300px;
+    margin-right: 40px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: pink;
+}
+.photo-icon-posit{
+    display: flex;
+    justify-content: center;
+}
+.mid-text-low-pers-heroes {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    color: #10151A;
+    margin-left: 28px;
+    font-size: 16px;
+}
+.heroes-title{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}

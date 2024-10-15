@@ -16,6 +16,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <?php require_once("../components/header.php"); ?>
 
     <main>
+        <?php require_once("../components/midContent/ourHerous.php"); ?>
+        
         <?php require_once("../components/lowContent/weeklyDigest.php"); ?>
 
         <?php require_once("../components/lowContent/press.php"); ?>
